@@ -8,6 +8,7 @@ export type AuthUser = {
   email?: string;
   username?: string;
   fullName?: string;
+  avatarUrl?: string;
 };
 
 export type AuthTokenResponse = {
